@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+    background-color: #e5e5fd;
+}
+.content{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 70%;
+    margin: auto;
+}
+/* for the image and salutation part */
+.top{
+    margin-top: 30px;
+    display: flex;
+    /* background-color: aqua; */
+}
+.image{
+    height: 250px;
+    width: 200px;
+    background-image: url(A._P._J._Abdul_Kalam.jpg);
+    background-size: cover;
+    margin-right: 20px;
+    border-radius: 45%;
+}
+.sal1 h1{
+    font-size: 60px;
+}
+.sal1 h4{
+    text-align: right;
+    font-size: 25px;
+}
+.salutation{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 30px
+}
+.sal1{
+    margin-bottom: 20px;
+}
+
+/* now for the mission man of india part */
+.middle{
+    margin-top: 40px;
+    /* background-color: pink; */
+}
+.middle h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+.middle p{
+  font-size: 15px;
+  line-height: 25px;
+  text-align: justify;
+  margin-top: 15px;
+}
+#bio{
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+ul{
+    padding-left: 25px;
+    margin-top: 10px;
+}
+li{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+/* now for the bottom part */
+.bottom p{
+    margin: 70px 20px 20px 0px;
+    font-size: 15px;
+    text-align: right;
+}
+.bottom a{
+    text-decoration: none;
+    color: blue;
+}

@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.first{
+    height: 100vh;
+    max-width: 100vw;
+    background-image: url(image1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} 
+.text{
+    position: relative;
+    top: 50%;
+    display: flex;
+}
+.text span{
+    margin: auto;
+    background-color: #313534;
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: white;
+    padding: 20px;
+    font-weight: lighter;
+}
+
+
+
+
+.outer-section-one{
+    background-color: #f4f4f4;
+    padding-top: 15px;
+    padding-bottom: 80px;
+}
+.section-one{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: #666;
+}
+.section-one h2,.section-two h2,.section-three h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.section-one p,.section-two p,.section-three p{
+    line-height: 20px;
+}
+
+
+
+.second{
+    height: 400px;
+    max-width: 100vw;
+    background-image: url(image2.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.text1{
+    position: relative;
+    top: 50%;
+    display: flex;
+}
+.text1 span{
+    margin: auto;
+    background-color: rgba(49,53,52,0.5);
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: white;
+    padding: 20px;
+    font-weight: lighter;
+}
+.outer-section-two,.outer-section-three{
+    background-color: #282e34;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.section-two,.section-three{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    color: #ddd;
+}
+
+
+
+.third{
+    height: 400px;
+    max-width: 100vw;
+    background-image: url(image3.png);
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+.text2{
+    position: relative;
+    top: 50%;
+    display: flex;
+}
+.text2 span{
+    margin: auto;
+    background-color: rgba(49,53,52,0);
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: white;
+    padding: 20px;
+    font-weight: lighter;
+}
